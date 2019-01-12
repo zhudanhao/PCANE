@@ -1,4 +1,5 @@
 PCANE: Preserving context attributes for network embedding
+
 It is the code of the paper "PCANE: Preserving context attributes for network embedding" in PAKDD2019.
 Compare to previous works, the method can preserve the attributes of not only the represented node, but also the nearby nodes.
 
