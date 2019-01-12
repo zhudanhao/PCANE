@@ -1,31 +1,9 @@
-# NAP_ANE
+PCANE: Preserving context attributes for network embedding
+It is the code of the paper "PCANE: Preserving context attributes for network embedding" in PAKDD2019.
+Compare to previous works, the method can preserve the attributes of not only the represented node, but also the nearby nodes.
 
-This is the work for paper 'Preserving Neighborhoods’ Attributes for Network Embedding'
+To run the code, first unzip "data.zip" to "data" directory. Then run "PCANE++.py", the default parameter settings should work.
+For PCANE refered in the paper, just set the dimension of attribute to 0: "--dim_attr=0"
 
-Danhao Zhu1;2, Xin-yu Dai1, and Kaijia Yang1
-1 Nanjing University, Nanjing,220000, China
-fzhudh,yangkjg@nlp.nju.edu.cn,daixinyu@nju.edu.cn
-2 Jiangsu Police Institute, Nanjing, 220000, China
-
-
-
-all the data is prepocessed and indexed in the 'data' fold
-
-
-
-Here is the abstract.
-
-Abstract. Mapping network nodes to low-dimensional vectors has shown
-promising results for many downstream tasks, such as link prediction and
-node classification. Recently, researchers found integrating attributes will
-improve the quality of learned vectors. However, for each represented node, the existing methods can only considered its own attributes, but
-ignored the attributes of its neighborhoods, which are also indicative to
-the node’s semantic.
-To properly utilize the information, we propose a new algorithm named
-NAP ANE(Neighborhoods’ Attributes Proximity for Attributed Network
-Embedding) to learn vector representation for nodes of attributed network. Compared to previous works, our method can capture not only the
-network structure, but also the neighborhoods’ attributes of network, and
-hence produces more informative node representations.
-Extensive experiments on four real-world attributed networks show that
-compared to state-of-the-art baselines, our method learns better representations and achieves substantial performance gains on link prediction
-and node classification tasks.
+The code depend on tensorflow 1.3.0 or higher version.
+If you have any question about the work, feel free to contact me.
