@@ -1,6 +1,8 @@
 PCANE: Preserving context attributes for network embedding
 
 It is the code of the paper "PCANE: Preserving context attributes for network embedding" in PAKDD2019.
+<a href='https://github.com/zhudanhao/PCANE/blob/master/PCANE.pdf'>Download pdf</a>
+
 Compare to previous works, the method can preserve the attributes of not only the represented node, but also the nearby nodes.
 
 To run the code, first unzip "data.zip" to "data" directory. Then run "PCANE++.py", the default parameter settings should work.
